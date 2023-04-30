@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declarationMap": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "rootDir": "lib",
+    "outDir": "dist",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "declaration": true
+  },
+  "include": ["./lib/**/*"],
+  "exclude": ["**/__*__/**/*"]
+}

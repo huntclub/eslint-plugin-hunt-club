@@ -1,0 +1,15 @@
+{
+  "bracketSpacing": false,
+  "proseWrap": "always",
+  "singleQuote": true,
+  "parser": "typescript",
+  "overrides": [
+    {"files": ["*.json", ".prettierrc"], "options": {"parser": "json"}},
+    {"files": "*.md", "options": {"parser": "markdown"}},
+    {"files": "*.html", "options": {"parser": "angular"}},
+    {"files": "*.css", "options": {"parser": "css"}},
+    {"files": ["*.yml", "*.yaml"], "options": {"parser": "yaml"}},
+    {"files": "*.mdx", "options": {"parser": "mdx"}},
+    {"files": ["*.graphql", "*.gql"], "options": {"parser": "graphql"}}
+  ]
+}
