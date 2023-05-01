@@ -12,4 +12,5 @@ and this project adheres to
 
 - Add initial library setup
 - `eslint` rules:
-  - `hunt-club/require-icon-postfix`: Require the `Icon` postfix for all Lucide icon components
+  - `hunt-club/require-icon-postfix`: Require the `Icon` postfix for all Lucide
+    icon components

@@ -9,12 +9,10 @@ This document outlines security procedures and general policies for the
 
 ## Reporting a Bug
 
-The `Eslint Pluging Hunt Club` team and community take all
-security bugs in `Eslint Pluging Hunt Club` seriously.
-Thank you for improving the security of
-`Eslint Pluging Hunt Club`. We appreciate your efforts and
-responsible disclosure and will make every effort to acknowledge your
-contributions.
+The `Eslint Pluging Hunt Club` team and community take all security bugs in
+`Eslint Pluging Hunt Club` seriously. Thank you for improving the security of
+`Eslint Pluging Hunt Club`. We appreciate your efforts and responsible
+disclosure and will make every effort to acknowledge your contributions.
 
 Report security bugs by emailing `oss-community@huntclub.com`.
 

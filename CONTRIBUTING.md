@@ -13,15 +13,15 @@
 
 # How to Contribute
 
-Thanks for your interest in contributing to
-`Eslint Plugin Hunt Club`! Here are a few general
-guidelines on contributing and reporting bugs that we ask you to review.
-Following these guidelines helps to communicate that you respect the time of the
-contributors managing and developing this open source project. In return, they
-should reciprocate that respect in addressing your issue, assessing changes, and
-helping you finalize your pull requests. In that spirit of mutual respect, we
-endeavour to review incoming issues and pull requests within 10 days, and will
-close any lingering issues or pull requests after 60 days of inactivity.
+Thanks for your interest in contributing to `Eslint Plugin Hunt Club`! Here are
+a few general guidelines on contributing and reporting bugs that we ask you to
+review. Following these guidelines helps to communicate that you respect the
+time of the contributors managing and developing this open source project. In
+return, they should reciprocate that respect in addressing your issue, assessing
+changes, and helping you finalize your pull requests. In that spirit of mutual
+respect, we endeavour to review incoming issues and pull requests within 10
+days, and will close any lingering issues or pull requests after 60 days of
+inactivity.
 
 Please note that all of your interactions in the project are subject to our
 [**Code of Conduct**][code of conduct]. This includes creation of issues or pull
@@ -61,22 +61,21 @@ Looking to contribute? Look for the [Good First Issue][good-first-issue] label.
 
 ## Other Ways to Contribute
 
-We welcome anyone that wants to contribute to
-`Eslint Plugin Hunt Club` to triage and reply to open
-issues to help troubleshoot and fix existing bugs. Here is what you can do:
+We welcome anyone that wants to contribute to `Eslint Plugin Hunt Club` to
+triage and reply to open issues to help troubleshoot and fix existing bugs. Here
+is what you can do:
 
 - Help ensure that existing issues follows the recommendations from the
   _[Reporting Issues](#reporting-issues)_ section, providing feedback to the
   issue's author on what might be missing.
 - Review and update the existing content of our
-  [Wiki](https://github.com/hunt-club/eslint-plugin-hunt-club/wiki) with up-to-date
-  instructions and code samples.
+  [Wiki](https://github.com/hunt-club/eslint-plugin-hunt-club/wiki) with
+  up-to-date instructions and code samples.
 - Review existing pull requests, and testing patches against real existing
   applications that use `Eslint Plugin Hunt Club`.
 - Write a test, or add a missing test case to an existing test.
 
-Thanks again for your interest on contributing to
-`Eslint Plugin Hunt Club`!
+Thanks again for your interest on contributing to `Eslint Plugin Hunt Club`!
 
 :heart:
 

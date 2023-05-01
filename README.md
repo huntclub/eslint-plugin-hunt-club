@@ -25,8 +25,6 @@ Provides custom linting rules from Hunt Club.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
 ## Installation
 
 ```bash
@@ -37,9 +35,7 @@ Add it to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  plugins: [
-    'hunt-club',
-  ],
+  plugins: ['hunt-club'],
   rules: {
     'hunt-club/require-icon-postfix': 'error',
   },
@@ -68,7 +64,8 @@ import {SettingsIcon} from 'lucide-react';
 
 #### When Not To Use It
 
-When you do not care which import alias is used for importing icons from `lucide-react`.
+When you do not care which import alias is used for importing icons from
+`lucide-react`.
 
 #### Version
 
@@ -82,15 +79,24 @@ This rule was introduced in package version [v0.1.0](./CHANGELOG.md#v0.1.0)
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/eslint-plugin-hunt-club.svg?style=flat-square
+[npm-image]:
+  https://img.shields.io/npm/v/eslint-plugin-hunt-club.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-plugin-hunt-club
-[downloads-image]: https://img.shields.io/npm/dm/eslint-plugin-hunt-club.svg?style=flat-square
+[downloads-image]:
+  https://img.shields.io/npm/dm/eslint-plugin-hunt-club.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/eslint-plugin-hunt-club
-[validate-image]: https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml/badge.svg
-[validate-url]: https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml
-[maintainability-image]: https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/maintainability
-[maintainability-url]: https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/maintainability
-[test-coverage-image]: https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/test_coverage
-[test-coverage-url]: https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/test_coverage
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
+[validate-image]:
+  https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml/badge.svg
+[validate-url]:
+  https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml
+[maintainability-image]:
+  https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/maintainability
+[maintainability-url]:
+  https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/maintainability
+[test-coverage-image]:
+  https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/test_coverage
+[test-coverage-url]:
+  https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/test_coverage
+[license-image]:
+  https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT
