@@ -1,21 +1,29 @@
 {
   "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
     "declarationMap": true,
-    "lib": ["esnext"],
     "esModuleInterop": true,
-    "target": "es2020",
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "pretty": true,
-    "rootDir": "lib",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
+    "rootDir": "lib",
     "sourceMap": true,
     "strict": true,
-    "noImplicitAny": true,
-    "declaration": true
+    "target": "es6",
+    "useUnknownInCatchVariables": true
   },
-  "include": ["./lib/**/*"],
-  "exclude": ["**/__*__/**/*"]
+  "exclude": ["**/__*__/**/*"],
+  "include": ["./lib/**/*"]
 }
