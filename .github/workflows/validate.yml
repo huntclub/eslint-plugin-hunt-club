@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: '.tool-versions'
           cache: 'yarn'
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: '.tool-versions'
           cache: 'yarn'
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: '.tool-versions'
           cache: 'yarn'
@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version-file: '.tool-versions'
           cache: 'yarn'
@@ -65,6 +65,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: 🧼 lint renovate config # Validates changes to renovate.json config file
-        uses: suzuki-shunsuke/github-action-renovate-config-validator@v0.1.3
+        uses: suzuki-shunsuke/github-action-renovate-config-validator@v1.0.1
         with:
           config_file_path: 'renovate.json'
