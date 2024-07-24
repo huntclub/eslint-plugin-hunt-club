@@ -5,8 +5,6 @@ Provides custom linting rules from Hunt Club.
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Validate][validate-image]][validate-url]
-[![Maintainability][maintainability-image]][maintainability-url]
-[![Test Coverage][test-coverage-image]][test-coverage-url]
 [![License: MIT][license-image]][license-url]
 
 ## Table of Contents
@@ -89,14 +87,6 @@ MIT
   https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml/badge.svg
 [validate-url]:
   https://github.com/huntclub/eslint-plugin-hunt-club/actions/workflows/validate.yml
-[maintainability-image]:
-  https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/maintainability
-[maintainability-url]:
-  https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/maintainability
-[test-coverage-image]:
-  https://api.codeclimate.com/v1/badges/18dba42406bddd047f9b/test_coverage
-[test-coverage-url]:
-  https://codeclimate.com/repos/644edbcd01e3f255f9af1cf9/test_coverage
 [license-image]:
   https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT
