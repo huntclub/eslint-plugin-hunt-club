@@ -37,12 +37,7 @@ jobs:
           node-version-file: '.tool-versions'
           cache: 'yarn'
       - run: yarn install --frozen-lockfile
-      - name: run tests + publish code coverage
-        uses: paambaati/codeclimate-action@v5.0.0
-        env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-        with:
-          coverageCommand: yarn test:coverage
+      - run: yarn test
   commitlint:
     runs-on: ubuntu-latest
     steps:
